@@ -4,7 +4,8 @@ from tools import (
     best_time_to_visit,
     get_popular_city,
     get_top_attractions,
-    get_weather
+    get_weather,
+    get_local_bars
 )
 from deepagents import create_deep_agent
 
@@ -17,7 +18,8 @@ agent = create_deep_agent(
         get_local_cuisine,
         best_time_to_visit,
         get_popular_city,
-        get_top_attractions
+        get_top_attractions,
+        get_local_bars
     ],
     system_prompt="You are a helpful travel assistant for India"
 )

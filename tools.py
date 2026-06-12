@@ -68,4 +68,19 @@ def get_local_cuisine(city:str) -> str:
     food = {
         "Hyderabad": "Biryani, Haleem, Irani Chai"
     }
-    return food.get(city, f"No cuisine data found for {city}")
+    return food.get(city, f"No cuisine data found for {city}")  
+
+@tool(parse_docstring=True)
+def get_local_bars(city:str) -> str:
+    """Get famous local bars of a city
+
+    Args:
+        city (str): city
+
+    Returns:
+        str: famous local bars
+    """
+    bars= {
+        "Hyderabad": "Black and white,Teacher's,Splendrum,lilly bars "
+    }
+    return bars.get(city, f"No cuisine data found for {city}")
