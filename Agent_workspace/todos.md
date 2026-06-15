@@ -1,0 +1,5 @@
+- [completed] Create a short plan and write all todos to /workspace/todos.md
+- [completed] Use get_article_points tool for 'Human Body and Its Architecture'
+- [completed] Write rough notes to /workspace/roughnotes.md
+- [completed] Write the final article to /workspace/human_body_article.md
+- [completed] Update todos.md to mark all tasks as completed
